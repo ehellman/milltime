@@ -67,6 +67,7 @@ export interface CaptureOptions {
   /** Pre-saves this login, as if `auth login` had run. */
   login?: SavedLogin;
   storeWarning?: string;
+  missingLoginHint?: string;
   overrides?: Partial<CliContext>;
 }
 
@@ -96,7 +97,7 @@ export function captureCli(options: CaptureOptions = {}): CapturedCli {
     version: "1.2.3",
     fetch: server.fetch,
     prompt,
-    sessionStore: async () => ({ store, warning: options.storeWarning }),
+    sessionStore: async () => ({ store, warning: options.storeWarning, missingLoginHint: options.missingLoginHint }),
     settings,
     ...options.overrides,
   };

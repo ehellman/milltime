@@ -22,13 +22,14 @@ interface RecordedCommand {
   command: string;
   args: string[];
   input?: string;
+  env?: NodeJS.ProcessEnv;
 }
 
 /** Answers commands in order and records what was run. */
 function fakeRunner(...results: Partial<CommandResult>[]): { run: CommandRunner; calls: RecordedCommand[] } {
   const calls: RecordedCommand[] = [];
-  const run: CommandRunner = async (command, args, input) => {
-    calls.push({ command, args, input });
+  const run: CommandRunner = async (command, args, input, env) => {
+    calls.push(env ? { command, args, input, env } : { command, args, input });
     const result = results.shift();
     if (!result) throw new Error(`Unexpected command: ${command} ${args.join(" ")}`);
     return { code: 0, stdout: "", stderr: "", ...result };
@@ -161,7 +162,7 @@ describe("macOS keychain session store", () => {
 });
 
 describe("selectSessionStore", () => {
-  const base = { env: {}, homeDir: "/home/user" };
+  const base = { env: {}, homeDir: "/home/user", uid: 1000, fileExists: () => false };
 
   it("uses the macOS keychain on macOS", async () => {
     const { run } = fakeRunner();
@@ -183,6 +184,54 @@ describe("selectSessionStore", () => {
       const { store, warning } = await selectSessionStore({ ...base, platform: "linux", run });
       assert.equal(store.name, "/home/user/.config/milltime/session.json");
       assert.match(warning!, /No keychain available/);
+    }
+  });
+
+  it("explains a missing login when no keychain was reachable", async () => {
+    const { run } = fakeRunner({ code: 1, stderr: "Could not connect" });
+    const { missingLoginHint } = await selectSessionStore({ ...base, platform: "linux", run });
+    assert.match(missingLoginHint!, /No keychain was reachable.*MILLTIME_CONFIG_DIR/);
+  });
+
+  it("gives secret-tool the user's standard session bus when the environment leaves it out", async () => {
+    const { run, calls } = fakeRunner({ code: 1 }, { stdout: JSON.stringify(LOGIN) });
+    const { store } = await selectSessionStore({
+      ...base,
+      env: { HOME: "/home/user" },
+      fileExists: (path) => path === "/run/user/1000/bus",
+      platform: "linux",
+      run,
+    });
+
+    assert.deepEqual(await store.load(), LOGIN);
+    const busEnv = { HOME: "/home/user", DBUS_SESSION_BUS_ADDRESS: "unix:path=/run/user/1000/bus" };
+    assert.deepEqual(
+      calls.map((call) => call.env),
+      [busEnv, busEnv],
+    );
+  });
+
+  it("finds the session bus in XDG_RUNTIME_DIR", async () => {
+    const { run, calls } = fakeRunner({ code: 1 });
+    await selectSessionStore({
+      ...base,
+      env: { XDG_RUNTIME_DIR: "/xdg-run" },
+      fileExists: (path) => path === "/xdg-run/bus",
+      platform: "linux",
+      run,
+    });
+    assert.equal(calls[0].env?.DBUS_SESSION_BUS_ADDRESS, "unix:path=/xdg-run/bus");
+  });
+
+  it("leaves the environment alone when it has a session bus, or there is none to find", async () => {
+    const cases = [
+      { env: { DBUS_SESSION_BUS_ADDRESS: "unix:path=/custom" }, fileExists: () => true },
+      { env: {}, fileExists: () => false },
+    ];
+    for (const { env, fileExists } of cases) {
+      const { run, calls } = fakeRunner({ code: 1 });
+      await selectSessionStore({ ...base, env, fileExists, platform: "linux", run });
+      assert.equal(calls[0].env, undefined);
     }
   });
 

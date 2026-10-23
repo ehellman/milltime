@@ -140,6 +140,12 @@ describe("auth status", () => {
     }
   });
 
+  it("says why a login may be missing when no keychain was reachable", async () => {
+    const result = await run({ missingLoginHint: "No keychain was reachable." }, "auth", "status");
+    assert.equal(result.code, 3);
+    assert.equal(result.err, 'Not logged in. Run "milltime auth login".\nNo keychain was reachable.');
+  });
+
   it("checks the session with the server and saves the extended session", async () => {
     const extended = fakeJwt({ userid: TEST_USER_ID, extended: true });
     const server = new FakeMilltime([

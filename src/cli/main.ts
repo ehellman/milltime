@@ -1,5 +1,4 @@
 import { readFileSync } from "node:fs";
-import { homedir } from "node:os";
 import { parseArgs } from "node:util";
 import { MilltimeApiError, MilltimeHttpError, MilltimeNotLoggedInError } from "../types.ts";
 import { registry as defaultRegistry } from "./commands/registry.ts";
@@ -8,8 +7,7 @@ import type { CliContext } from "./context.ts";
 import { UsageError } from "./errors.ts";
 import { commandHelp, groupHelp, topLevelHelp } from "./help.ts";
 import { createTerminalPrompt } from "./prompt.ts";
-import { runCommand } from "./session-store/command-runner.ts";
-import { configDir, selectSessionStore } from "./session-store/index.ts";
+import { configDir, processEnvironment, selectSessionStore } from "./session-store/index.ts";
 import type { SessionStoreSelection } from "./session-store/index.ts";
 import { createSettingsStore } from "./settings.ts";
 
@@ -92,7 +90,7 @@ function reportError(error: unknown, ctx: CliContext): number {
     return EXIT_USAGE;
   }
   if (error instanceof MilltimeNotLoggedInError) {
-    ctx.stderr('Not logged in. Run "milltime auth login".');
+    ctx.stderr(['Not logged in. Run "milltime auth login".', error.hint].filter(Boolean).join("\n"));
     return EXIT_NOT_LOGGED_IN;
   }
   if (error instanceof MilltimeApiError || error instanceof MilltimeHttpError) {
@@ -114,7 +112,7 @@ function readVersion(): string {
 }
 
 function createProcessContext(): CliContext {
-  const environment = { env: process.env, platform: process.platform, homeDir: homedir(), run: runCommand };
+  const environment = processEnvironment();
   let selection: Promise<SessionStoreSelection> | undefined;
   return {
     stdout: (text) => console.log(text),

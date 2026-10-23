@@ -7,11 +7,17 @@ export interface CommandResult {
   stderr: string;
 }
 
-export type CommandRunner = (command: string, args: string[], input?: string) => Promise<CommandResult>;
+/** `env` replaces the inherited environment. */
+export type CommandRunner = (
+  command: string,
+  args: string[],
+  input?: string,
+  env?: NodeJS.ProcessEnv,
+) => Promise<CommandResult>;
 
-export const runCommand: CommandRunner = (command, args, input) =>
+export const runCommand: CommandRunner = (command, args, input, env) =>
   new Promise((resolve) => {
-    const child = spawn(command, args, { stdio: ["pipe", "pipe", "pipe"] });
+    const child = spawn(command, args, { stdio: ["pipe", "pipe", "pipe"], env });
     let stdout = "";
     let stderr = "";
     child.stdout.on("data", (chunk) => (stdout += chunk));

@@ -1,10 +1,8 @@
 import { randomBytes } from "node:crypto";
 import { readFileSync } from "node:fs";
-import { homedir } from "node:os";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { withSession } from "../cli/session.ts";
-import { runCommand } from "../cli/session-store/command-runner.ts";
-import { selectSessionStore } from "../cli/session-store/index.ts";
+import { processEnvironment, selectSessionStore } from "../cli/session-store/index.ts";
 import type { SessionStoreSelection } from "../cli/session-store/index.ts";
 import { localToday } from "../dates.ts";
 import type { McpContext } from "./context.ts";
@@ -16,7 +14,7 @@ function readVersion(): string {
 
 /** Uses the login saved by "milltime auth login", and saves the session back when the server extends it. */
 function createProcessContext(): McpContext {
-  const environment = { env: process.env, platform: process.platform, homeDir: homedir(), run: runCommand };
+  const environment = processEnvironment();
   let selection: Promise<SessionStoreSelection> | undefined;
   const session = { sessionStore: () => (selection ??= selectSessionStore(environment)), fetch: globalThis.fetch };
   return {

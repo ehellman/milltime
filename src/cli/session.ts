@@ -6,9 +6,10 @@ import type { SavedLogin } from "./session-store/index.ts";
 
 /** Loads the saved login, or throws MilltimeNotLoggedInError when there is none or it has expired. */
 export async function loadLogin(ctx: Pick<CliContext, "sessionStore">): Promise<SavedLogin> {
-  const { store } = await ctx.sessionStore();
+  const { store, missingLoginHint } = await ctx.sessionStore();
   const login = await store.load();
-  if (!login || login.session.expiresAt <= Date.now()) throw new MilltimeNotLoggedInError();
+  if (!login) throw new MilltimeNotLoggedInError(missingLoginHint);
+  if (login.session.expiresAt <= Date.now()) throw new MilltimeNotLoggedInError();
   return login;
 }
 

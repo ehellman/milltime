@@ -53,6 +53,13 @@ describe("mcp server", () => {
     assert.match(textOf(result), /milltime auth login/);
   });
 
+  it("passes on why the login may be missing", async () => {
+    const error = new MilltimeNotLoggedInError("No keychain was reachable.");
+    const { call } = await connectMcp([], { withClient: async () => Promise.reject(error) });
+
+    assert.match(textOf(await call("list_projects")), /auth login.*\nNo keychain was reachable\.$/s);
+  });
+
   it("rejects a malformed date before calling Milltime", async () => {
     const { call, server } = await connectMcp([]);
 

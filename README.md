@@ -86,6 +86,14 @@ Claude Desktop (`claude_desktop_config.json`):
 { "mcpServers": { "milltime": { "command": "npx", "args": ["-y", "@erikhellman/milltime@latest", "mcp"] } } }
 ```
 
+Codex:
+
+```sh
+codex mcp add milltime -- npx -y @erikhellman/milltime@latest mcp
+```
+
+Codex starts servers with a minimal environment. On Linux the server then finds the keyring on the user's standard session bus (`/run/user/<uid>/bus`). If it still says it is not logged in, add `env_vars = ["DBUS_SESSION_BUS_ADDRESS"]`, or store the login in a file instead: log in with `MILLTIME_CONFIG_DIR=~/.config/milltime milltime auth login` and add `env = { MILLTIME_CONFIG_DIR = "/home/you/.config/milltime" }` (an absolute path).
+
 Tools: `get_week`, `list_projects`, `report_time`, `update_time_row`, `delete_time_row`, `get_lock_status`, `lock_week`, `list_expenses`, `list_expense_types`, `list_currencies`, `list_expense_projects`, `get_expense_receipts`, `create_expense`, `update_expense`, `delete_expense`, `list_allowances`, `list_countries`, `list_allowance_projects`, `create_allowance`, `update_allowance`, `delete_allowance`.
 
 `report_time` takes a list of rows, so a whole week is previewed and confirmed at once; if one row fails, it says which rows were already reported. `list_projects` gives each activity the `key` to report it with.

@@ -1,10 +1,23 @@
+import { join } from "node:path";
 import type { CommandRunner } from "./command-runner.ts";
 import { commandFailure } from "./command-runner.ts";
-import type { SessionStore } from "./index.ts";
+import type { SessionStore, SessionStoreEnvironment } from "./index.ts";
 import type { SavedLogin } from "./saved-login.ts";
 import { parseSavedLogin } from "./saved-login.ts";
 
 const ATTRIBUTES = ["service", "milltime"];
+
+/**
+ * Some MCP clients (e.g. Codex) start servers with a minimal environment that leaves out
+ * DBUS_SESSION_BUS_ADDRESS, so secret-tool cannot reach the keyring. Falls back to the user's standard bus.
+ */
+export function secretToolRunner({ env, uid, fileExists, run }: SessionStoreEnvironment): CommandRunner {
+  if (env.DBUS_SESSION_BUS_ADDRESS || uid === undefined) return run;
+  const bus = join(env.XDG_RUNTIME_DIR || `/run/user/${uid}`, "bus");
+  if (!fileExists(bus)) return run;
+  const busEnv = { ...env, DBUS_SESSION_BUS_ADDRESS: `unix:path=${bus}` };
+  return (command, args, input) => run(command, args, input, busEnv);
+}
 
 /** Installed and connected to a secret service: a lookup of a missing item exits 1 with no error output. */
 export async function isSecretToolAvailable(run: CommandRunner): Promise<boolean> {

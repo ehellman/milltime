@@ -33,8 +33,12 @@ export class MilltimeHttpError extends Error {
 
 /** The stored session is missing, expired or rejected, and the client may not log in by itself. */
 export class MilltimeNotLoggedInError extends Error {
-  constructor() {
+  /** Why the login may not have been found, to show after the error. */
+  readonly hint?: string;
+
+  constructor(hint?: string) {
     super("Not logged in");
     this.name = "MilltimeNotLoggedInError";
+    this.hint = hint;
   }
 }

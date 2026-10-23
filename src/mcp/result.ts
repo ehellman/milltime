@@ -24,7 +24,9 @@ export async function handleErrors(run: () => Promise<CallToolResult>): Promise<
 
 function errorMessage(error: unknown): string {
   if (error instanceof MilltimeNotLoggedInError) {
-    return 'Not logged in to Milltime. Ask the user to run "milltime auth login" in a terminal, then try again.';
+    const message =
+      'Not logged in to Milltime. Ask the user to run "milltime auth login" in a terminal, then try again.';
+    return [message, error.hint].filter(Boolean).join("\n");
   }
   if (error instanceof MilltimeApiError || error instanceof MilltimeHttpError) {
     return `Milltime error: ${error.message}`;
