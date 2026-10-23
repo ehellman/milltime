@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { randomBytes } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { homedir } from "node:os";
@@ -28,6 +27,7 @@ function createProcessContext(): McpContext {
   };
 }
 
-if (import.meta.main) {
+/** Serves the MCP tools over stdin and stdout until the client disconnects. */
+export async function runMcpServer(): Promise<void> {
   await createServer(createProcessContext()).connect(new StdioServerTransport());
 }

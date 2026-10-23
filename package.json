@@ -1,21 +1,38 @@
 {
-  "name": "milltime-client",
-  "version": "0.0.1",
+  "name": "@erikhellman/milltime",
+  "version": "0.1.0",
+  "description": "Unofficial TypeScript client, CLI and MCP server for Milltime: time reporting, expenses and allowances.",
+  "keywords": [
+    "milltime",
+    "time reporting",
+    "mcp",
+    "cli"
+  ],
   "type": "module",
   "engines": {
-    "node": ">=23.6.0"
+    "node": ">=22"
   },
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
   "bin": {
-    "milltime": "./src/cli/main.ts",
-    "milltime-mcp": "./src/mcp/main.ts"
+    "milltime": "./dist/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "node --test \"tests/unit/**/*.test.ts\"",
-    "test:live": "node --env-file=.env --test \"tests/live/**/*.test.ts\""
+    "test:live": "node --env-file=.env --test \"tests/live/**/*.test.ts\"",
+    "build": "node -e \"fs.rmSync('dist',{recursive:true,force:true})\" && tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.32.1",

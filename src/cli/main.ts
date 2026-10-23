@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { readFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { parseArgs } from "node:util";
@@ -130,7 +129,7 @@ function createProcessContext(): CliContext {
   };
 }
 
-if (import.meta.main) {
-  const ctx = createProcessContext();
-  process.exitCode = await main(process.argv.slice(2), ctx);
+/** Runs the CLI in this process with its arguments, terminal and environment. */
+export async function runCli(argv: string[]): Promise<number> {
+  return main(argv, createProcessContext());
 }

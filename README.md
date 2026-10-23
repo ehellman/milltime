@@ -1,16 +1,22 @@
-# milltime-client
+# @erikhellman/milltime
 
-TypeScript client, CLI and MCP server for Milltime: time reporting, expenses and allowances.
+Unofficial TypeScript client, CLI and MCP server for Milltime: time reporting, expenses and allowances.
 
-Requires Node ≥ 23.6 (runs the TypeScript sources directly).
+Requires Node ≥ 22.
+
+## Quick start with an AI assistant
+
+```sh
+npx -y @erikhellman/milltime@latest auth login
+claude mcp add milltime -- npx -y @erikhellman/milltime@latest mcp
+```
+
+`npx` checks for a newer version each time the server starts, so updates arrive on the next restart of the assistant.
 
 ## CLI
 
-Install the `milltime` command from a checkout:
-
 ```sh
-pnpm install
-npm link          # or: pnpm link --global (needs `pnpm setup` first)
+npm install -g @erikhellman/milltime     # or run any command below as: npx -y @erikhellman/milltime@latest <command>
 ```
 
 Log in once. The password is never stored; only the session is, in the system keychain (`secret-tool` on Linux, Keychain on macOS) or, without one, in `~/.config/milltime/session.json` (mode 0600). Sessions expire after about 8 idle hours. The address (e.g. `https://yourcompany.millnet.cloud`) and instance are remembered; when an address serves several instances, `auth login` lists them and asks which one.
@@ -66,18 +72,18 @@ Environment: `MILLTIME_CONFIG_DIR` stores settings and the session as files in t
 
 ## MCP server
 
-`milltime-mcp` serves the same features to an assistant over stdio. It uses the login saved by `milltime auth login` (and `MILLTIME_CONFIG_DIR`, if set), so log in with the CLI first; it never sees the password.
+`milltime mcp` serves the same features to an assistant over stdio. It uses the login saved by `milltime auth login` (and `MILLTIME_CONFIG_DIR`, if set), so log in with the CLI first; it never sees the password.
 
 Claude Code:
 
 ```sh
-claude mcp add milltime -- node /path/to/milltime-bot/src/mcp/main.ts
+claude mcp add milltime -- npx -y @erikhellman/milltime@latest mcp
 ```
 
 Claude Desktop (`claude_desktop_config.json`):
 
 ```json
-{ "mcpServers": { "milltime": { "command": "node", "args": ["/path/to/milltime-bot/src/mcp/main.ts"] } } }
+{ "mcpServers": { "milltime": { "command": "npx", "args": ["-y", "@erikhellman/milltime@latest", "mcp"] } } }
 ```
 
 Tools: `get_week`, `list_projects`, `report_time`, `update_time_row`, `delete_time_row`, `get_lock_status`, `lock_week`, `list_expenses`, `list_expense_types`, `list_currencies`, `list_expense_projects`, `get_expense_receipts`, `create_expense`, `update_expense`, `delete_expense`, `list_allowances`, `list_countries`, `list_allowance_projects`, `create_allowance`, `update_allowance`, `delete_allowance`.
@@ -90,10 +96,15 @@ Every write takes two calls. Without `confirmToken` it sends nothing and returns
 
 ## Development
 
+Runs the TypeScript sources directly on Node ≥ 23.6: `node src/bin.ts <command>`, and `node src/bin.ts mcp` for the server.
+
 ```sh
 pnpm typecheck
+pnpm build        # compiles to dist/, which is what the package ships
 pnpm test         # unit tests against fixtures, no network
 pnpm test:live    # read-only calls against the real instance; needs .env (see .env.example)
 MILLTIME_LIVE_WRITES=1 pnpm test:live   # also creates, edits and deletes a time row, an expense and an allowance this week
 ```
+
+Release: `npm version patch && npm publish` (`prepublishOnly` typechecks, tests and builds first), then `git push --follow-tags`.
 

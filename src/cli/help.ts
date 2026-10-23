@@ -14,7 +14,7 @@ export function topLevelHelp(registry: Registry): string {
     "Usage: milltime <group> <command> [options]",
     "",
     "Commands:",
-    formatColumns(rows),
+    formatColumns([...rows, ["  mcp", "Serve the tools to an AI assistant over stdio (MCP)"]]),
     "",
     GLOBAL_OPTIONS,
     "",
@@ -30,7 +30,7 @@ export function groupHelp(registry: Registry, group: string): string {
     registry[group].summary,
     "",
     "Commands:",
-    formatColumns(rows),
+    formatColumns([...rows, ["  mcp", "Serve the tools to an AI assistant over stdio (MCP)"]]),
   ].join("\n");
 }
 

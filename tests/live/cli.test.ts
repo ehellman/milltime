@@ -8,7 +8,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { promisify } from "node:util";
 
-const MAIN = new URL("../../src/cli/main.ts", import.meta.url).pathname;
+const MAIN = new URL("../../src/bin.ts", import.meta.url).pathname;
 const run = promisify(execFile);
 
 let configDir: string;

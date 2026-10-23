@@ -11,8 +11,7 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import type { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
 
-const CLI = new URL("../../src/cli/main.ts", import.meta.url).pathname;
-const SERVER = new URL("../../src/mcp/main.ts", import.meta.url).pathname;
+const CLI = new URL("../../src/bin.ts", import.meta.url).pathname;
 const run = promisify(execFile);
 
 let configDir: string;
@@ -48,7 +47,7 @@ describe("milltime MCP server", () => {
     await client.connect(
       new StdioClientTransport({
         command: process.execPath,
-        args: [SERVER],
+        args: [CLI, "mcp"],
         env: { PATH: process.env.PATH ?? "", MILLTIME_CONFIG_DIR: configDir },
       }),
     );
