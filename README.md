@@ -108,3 +108,7 @@ MILLTIME_LIVE_WRITES=1 pnpm test:live   # also creates, edits and deletes a time
 
 Release: `npm version patch && npm publish` (`prepublishOnly` typechecks, tests and builds first), then `git push --follow-tags`.
 
+
+## License
+
+MIT with the Commons Clause: free to use, modify and share, but not to sell, including as a hosted or paid service. See [LICENSE](LICENSE).
