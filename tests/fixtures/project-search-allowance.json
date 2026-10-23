@@ -1,0 +1,156 @@
+{
+  "method": "GET",
+  "path": "/api/internal/project/search",
+  "query": {
+    "view": "Allowance",
+    "memberOnly": "true"
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": [
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000007",
+      "ProjectName": "projectname 2",
+      "ProjectNr": "9008",
+      "CustomerNames": "customernames 2",
+      "LeaderName": "LeaderName 1",
+      "PlanningType": 1,
+      "IsFavorite": true,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "53",
+        "name": "LeaderName 1",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000026",
+      "ProjectName": "projectname 5",
+      "ProjectNr": "9027",
+      "CustomerNames": "customernames 2",
+      "LeaderName": "LeaderName 1",
+      "PlanningType": 1,
+      "IsFavorite": true,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "53",
+        "name": "LeaderName 1",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000032",
+      "ProjectName": "projectname 6",
+      "ProjectNr": "9033",
+      "CustomerNames": "customernames 3",
+      "LeaderName": "LeaderName 2",
+      "PlanningType": 1,
+      "IsFavorite": true,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "900000000000000141",
+        "name": "LeaderName 2",
+        "isgroup": true,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000003",
+      "ProjectName": "projectname 1",
+      "ProjectNr": "9006",
+      "CustomerNames": "customernames 1",
+      "LeaderName": "LeaderName 3",
+      "PlanningType": 1,
+      "IsFavorite": true,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "9142",
+        "name": "LeaderName 3",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000143",
+      "ProjectName": "ProjectName 1",
+      "ProjectNr": "9144",
+      "CustomerNames": "customernames 3",
+      "LeaderName": "LeaderName 4",
+      "PlanningType": 1,
+      "IsFavorite": false,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "9145",
+        "name": "LeaderName 4",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000146",
+      "ProjectName": "ProjectName 2",
+      "ProjectNr": "9147",
+      "CustomerNames": "customernames 3",
+      "LeaderName": "LeaderName 5",
+      "PlanningType": 0,
+      "IsFavorite": false,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "9148",
+        "name": "LeaderName 5",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000019",
+      "ProjectName": "projectname 4",
+      "ProjectNr": "9020",
+      "CustomerNames": "customernames 2",
+      "LeaderName": "LeaderName 1",
+      "PlanningType": 0,
+      "IsFavorite": false,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "53",
+        "name": "LeaderName 1",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    },
+    {
+      "UserId": "902",
+      "ProjectId": "900000000000000162",
+      "ProjectName": "ProjectName 3",
+      "ProjectNr": "9163",
+      "CustomerNames": "CustomerNames 1",
+      "LeaderName": "LeaderName 6",
+      "PlanningType": 0,
+      "IsFavorite": false,
+      "IsMember": true,
+      "IsLeader": false,
+      "ProjectLeader": {
+        "id": "34",
+        "name": "LeaderName 6",
+        "isgroup": false,
+        "hasavatar": false
+      }
+    }
+  ]
+}

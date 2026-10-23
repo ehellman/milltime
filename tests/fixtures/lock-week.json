@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "path": "/cgi/mt.cgi/data/store/LockData",
+  "query": {},
+  "requestBody": {
+    "fromDate": "2026-10-05",
+    "toDate": "2026-10-11",
+    "period": "week",
+    "usernote": "",
+    "check": false,
+    "OverTime1Comp": 0,
+    "OverTime2Comp": 0,
+    "TravelTime1Comp": 0,
+    "TravelTime2Comp": 0,
+    "PlusTimeComp": 0,
+    "FlexComp": 0
+  },
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {}
+    ],
+    "success": true
+  }
+}

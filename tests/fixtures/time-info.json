@@ -1,0 +1,62 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/TimeInfo",
+  "query": {
+    "filter": [
+      [
+        "fromDate",
+        "=",
+        "2026-10-01"
+      ],
+      [
+        "toDate",
+        "=",
+        "2026-10-31"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "Overtimes": [
+          {
+            "key": "OverTime1",
+            "value": 0,
+            "label": "label 1"
+          },
+          {
+            "key": "OverTime2",
+            "value": 0,
+            "label": "activityname 20"
+          }
+        ],
+        "Traveltimes": [
+          {
+            "key": "TravelTime1",
+            "value": 4.5,
+            "label": "label 2"
+          },
+          {
+            "key": "TravelTime2",
+            "value": 0,
+            "label": "label 3"
+          }
+        ],
+        "FlexTimePreviousPeriod": 43,
+        "FlexTimePeriodExcl": 0,
+        "FlexTimePeriodIncl": -8,
+        "FlexTimeCurrent": 35,
+        "FlexWithdrawal": 0,
+        "ScheduledPeriodTime": 168,
+        "WorkedPeriodTime": 60.5,
+        "AbsencePeriodTime": 0,
+        "WorkedPeriodWithAbsenceTime": 60.5,
+        "PeriodTimeLeft": 107.5,
+        "MTInfoDetailRow": []
+      }
+    ],
+    "success": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/LockCheckData",
+  "query": {
+    "filter": [
+      [
+        "fromDate",
+        "=",
+        "2026-10-05"
+      ],
+      [
+        "toDate",
+        "=",
+        "2026-10-11"
+      ],
+      [
+        "period",
+        "=",
+        "week"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "success": true,
+    "total": "",
+    "rows": []
+  }
+}

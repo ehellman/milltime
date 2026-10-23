@@ -1,0 +1,7 @@
+node_modules/
+.env
+
+# Local notes
+docs/
+discovery/
+proposed-skills.md

@@ -1,0 +1,269 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/ExpenseTypes",
+  "query": {},
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "ExpenseTypeId": "900000000000000112",
+        "ExpenseTypeName": "ExpenseTypeName 1",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000113",
+        "ExpenseTypeName": "ExpenseTypeName 2",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000114",
+        "ExpenseTypeName": "ExpenseTypeName 3",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000115",
+        "ExpenseTypeName": "ExpenseTypeName 4",
+        "NonDeductibleSalaryArticleId": "9116",
+        "VATDeductibleAmountUser": 180,
+        "TaxFreeAmountUser": 180,
+        "NoVAT": false,
+        "Representation": 1,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000117",
+        "ExpenseTypeName": "ExpenseTypeName 5",
+        "NoVAT": true,
+        "Representation": 0,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000118",
+        "ExpenseTypeName": "name 5",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000119",
+        "ExpenseTypeName": "ExpenseTypeName 6",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000120",
+        "ExpenseTypeName": "ExpenseTypeName 7",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000121",
+        "ExpenseTypeName": "ExpenseTypeName 8",
+        "TaxFreeAmountUser": 15000,
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000122",
+        "ExpenseTypeName": "ExpenseTypeName 9",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000123",
+        "ExpenseTypeName": "ExpenseTypeName 10",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000124",
+        "ExpenseTypeName": "ExpenseTypeName 11",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000125",
+        "ExpenseTypeName": "ExpenseTypeName 12",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000126",
+        "ExpenseTypeName": "ExpenseTypeName 13",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000127",
+        "ExpenseTypeName": "ExpenseTypeName 14",
+        "NonDeductibleSalaryArticleId": "9128",
+        "VATDeductibleAmountUser": 300,
+        "TaxFreeAmountUser": 0,
+        "NoVAT": false,
+        "Representation": 1,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000129",
+        "ExpenseTypeName": "ExpenseTypeName 15",
+        "NonDeductibleSalaryArticleId": "9130",
+        "VATDeductibleAmountUser": 300,
+        "TaxFreeAmountUser": 0,
+        "NoVAT": false,
+        "Representation": 1,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000131",
+        "ExpenseTypeName": "ExpenseTypeName 16",
+        "NonDeductibleSalaryArticleId": "9128",
+        "VATDeductibleAmountUser": 300,
+        "TaxFreeAmountUser": 60,
+        "NoVAT": false,
+        "Representation": 1,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000132",
+        "ExpenseTypeName": "ExpenseTypeName 17",
+        "NonDeductibleSalaryArticleId": "9130",
+        "VATDeductibleAmountUser": 300,
+        "TaxFreeAmountUser": 60,
+        "NoVAT": false,
+        "Representation": 1,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000133",
+        "ExpenseTypeName": "ExpenseTypeName 18",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000134",
+        "ExpenseTypeName": "ExpenseTypeName 19",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000135",
+        "ExpenseTypeName": "ExpenseTypeName 20",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000136",
+        "ExpenseTypeName": "ExpenseTypeName 21",
+        "NonDeductibleSalaryArticleId": "9130",
+        "VATDeductibleAmountUser": 0,
+        "TaxFreeAmountUser": 0,
+        "NoVAT": false,
+        "Representation": 1,
+        "Disabled": 0,
+        "RequireNote": false,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000103",
+        "ExpenseTypeName": "expensetypename 1",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000137",
+        "ExpenseTypeName": "ExpenseTypeName 22",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 0,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "ExpenseTypeId 1",
+        "ExpenseTypeName": "ExpenseTypeName 23",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 1,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000138",
+        "ExpenseTypeName": "ExpenseTypeName 24",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 1,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000139",
+        "ExpenseTypeName": "ExpenseTypeName 25",
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 1,
+        "IsGroupMember": true
+      },
+      {
+        "ExpenseTypeId": "900000000000000140",
+        "ExpenseTypeName": "ExpenseTypeName 26",
+        "VATDeductibleAmountUser": 1800,
+        "TaxFreeAmountUser": 1800,
+        "NoVAT": false,
+        "Representation": 0,
+        "Disabled": 1,
+        "RequireNote": false,
+        "IsGroupMember": true
+      }
+    ],
+    "success": true
+  }
+}

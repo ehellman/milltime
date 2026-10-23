@@ -1,0 +1,50 @@
+{
+  "method": "DELETE",
+  "path": "/cgi/mt.cgi/data/store/ProjectRegistrationReact",
+  "query": {
+    "filter": [
+      [
+        "ProjectRegistrationId",
+        "=",
+        "900000000000000158"
+      ],
+      [
+        "TimeDistributionType",
+        "=",
+        "TRAVELTIME1"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [],
+    "success": true,
+    "data": {
+      "OverTime1": {
+        "hh": 0,
+        "mm": 0
+      },
+      "OverTime2": {
+        "hh": 0,
+        "mm": 0
+      },
+      "OverTime3": {
+        "hh": 0,
+        "mm": 0
+      },
+      "OverTime4": {
+        "hh": 0,
+        "mm": 0
+      },
+      "TravelTime1": {
+        "hh": 0,
+        "mm": 0
+      },
+      "TravelTime2": {
+        "hh": 0,
+        "mm": 0
+      }
+    }
+  }
+}

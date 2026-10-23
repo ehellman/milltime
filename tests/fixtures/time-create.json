@@ -1,0 +1,119 @@
+{
+  "method": "POST",
+  "path": "/cgi/mt.cgi/data/store/ProjectRegistrationReact",
+  "query": {},
+  "requestBody": {
+    "absencetype": null,
+    "attestlevel": 0,
+    "favoritetype": 0,
+    "phaseid": "Default",
+    "phasename": "",
+    "projectnr": "",
+    "planningtaskid": "900000000000000001",
+    "planningtype": 0,
+    "regday": "2026-10-10",
+    "reportnr": 0,
+    "selfinvoicenr": 0,
+    "requirenote": false,
+    "ticket": {},
+    "userid": "902",
+    "variationid": "",
+    "weekNumber": 42,
+    "timedistributiontype": "TRAVELTIME1",
+    "projtime": "5.00",
+    "inputtime": "5",
+    "internalnote": "",
+    "projectid": "900000000000000003",
+    "projectname": "projectname 1",
+    "activity": "900000000000000004",
+    "activityname": "activityname 1"
+  },
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "absencetype": null,
+        "attestlevel": null,
+        "activityname": "activityname 1",
+        "requirenote": false,
+        "userid": "902",
+        "favoritetype": null,
+        "regday": "2026-10-10",
+        "projectid": "900000000000000003",
+        "projectname": "projectname 1",
+        "activity": "900000000000000004",
+        "phaseid": "Default",
+        "phasename": "",
+        "planningtaskid": "900000000000000001",
+        "projectregistrationid": "900000000000000005",
+        "projtimehh": 5,
+        "projtimemm": null,
+        "variationid": null,
+        "billtimehh": null,
+        "billtimemm": null,
+        "projectnr": "9006",
+        "usernote": null,
+        "internalnote": null,
+        "projplandescription": null,
+        "reportnr": null,
+        "selfinvoicenr": null,
+        "planningtaskname": "activityname 1",
+        "planningtype": 1,
+        "cancreatedrivelog": true,
+        "cancreateexpense": true,
+        "cancreateallowance": true,
+        "cancreateaddition": true,
+        "cancreatearticle": true,
+        "attendencelog": {
+          "clockstarthh": null,
+          "clockstartmm": null,
+          "clockendhh": null,
+          "clockendmm": null,
+          "lunchhh": null,
+          "lunchmm": null,
+          "attendencelogid": null,
+          "regday": null,
+          "userid": null
+        },
+        "timedistributiontype": "TRAVELTIME1",
+        "ticket": {
+          "ticketdata": null,
+          "description": null,
+          "imageurl": null
+        },
+        "customernames": "customernames 1"
+      }
+    ],
+    "success": true,
+    "data": {
+      "OverTime1": {
+        "hh": 0,
+        "mm": 0
+      },
+      "OverTime2": {
+        "hh": 0,
+        "mm": 0
+      },
+      "OverTime3": {
+        "hh": 0,
+        "mm": 0
+      },
+      "OverTime4": {
+        "hh": 0,
+        "mm": 0
+      },
+      "PlusTime": {
+        "hh": 0,
+        "mm": 0
+      },
+      "TravelTime1": {
+        "hh": 5,
+        "mm": 0
+      },
+      "TravelTime2": {
+        "hh": 0,
+        "mm": 0
+      }
+    }
+  }
+}

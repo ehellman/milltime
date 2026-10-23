@@ -1,0 +1,20 @@
+{
+  "method": "DELETE",
+  "path": "/cgi/mt.cgi/data/store/ExpensesReact",
+  "query": {
+    "filter": [
+      [
+        "id",
+        "=",
+        "900000000000000160"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "success": true,
+    "total": "",
+    "rows": []
+  }
+}

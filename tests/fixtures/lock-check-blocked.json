@@ -1,0 +1,18 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/LockCheckData",
+  "query": {
+    "filter": [["fromDate", "=", "2026-10-12"], ["toDate", "=", "2026-10-18"], ["period", "=", "week"]]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "success": true,
+    "rows": [
+      {
+        "lockMessage": "There are days with less registered time than scheduled in this week. You need to register more time for these days before locking.",
+        "block": true
+      }
+    ]
+  }
+}

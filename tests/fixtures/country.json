@@ -1,0 +1,284 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/Country",
+  "query": {
+    "filter": [
+      [
+        "Disabled",
+        "=",
+        "0"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "CountryCode": "AUS",
+        "CountryCode2": "AU",
+        "Country": "Australien",
+        "NormalAllowance": 727,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "AUT",
+        "CountryCode2": "AT",
+        "Country": "Austria",
+        "NormalAllowance": 730,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "CAN",
+        "CountryCode2": "CA",
+        "Country": "Canada",
+        "NormalAllowance": 895,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "HRV",
+        "CountryCode2": "HR",
+        "Country": "Croatia",
+        "NormalAllowance": 550,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "DNK",
+        "CountryCode2": "DK",
+        "Country": "Denmark",
+        "NormalAllowance": 1226,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "FIN",
+        "CountryCode2": "FI",
+        "Country": "Finland",
+        "NormalAllowance": 968,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "FRA",
+        "CountryCode2": "FR",
+        "Country": "France",
+        "NormalAllowance": 850,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "DEU",
+        "CountryCode2": "DE",
+        "Country": "Germany",
+        "NormalAllowance": 760,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "GBR",
+        "CountryCode2": "GB",
+        "Country": "Great Britain",
+        "NormalAllowance": 901,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "HKG",
+        "CountryCode2": "HK",
+        "Country": "Hong Kong, Kina",
+        "NormalAllowance": 895,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "IND",
+        "CountryCode2": "IN",
+        "Country": "India",
+        "NormalAllowance": 300,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "IRL",
+        "CountryCode2": "IE",
+        "Country": "Irland",
+        "NormalAllowance": 1038,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "ISL",
+        "CountryCode2": "IS",
+        "Country": "Island",
+        "NormalAllowance": 1125,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "ITA",
+        "CountryCode2": "IT",
+        "Country": "Italien",
+        "NormalAllowance": 802,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "MLT",
+        "CountryCode2": "MT",
+        "Country": "Malta",
+        "NormalAllowance": 659,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "NLD",
+        "CountryCode2": "NL",
+        "Country": "Netherlands",
+        "NormalAllowance": 745,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "NOR",
+        "CountryCode2": "NO",
+        "Country": "Norway",
+        "NormalAllowance": 1054,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "NZL",
+        "CountryCode2": "NZ",
+        "Country": "Nya Zeeland",
+        "NormalAllowance": 525,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "PHL",
+        "CountryCode2": "PH",
+        "Country": "Philippines",
+        "NormalAllowance": 466,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "POL",
+        "CountryCode2": "PL",
+        "Country": "Poland",
+        "NormalAllowance": 597,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "ROU",
+        "CountryCode2": "RO",
+        "Country": "Romania",
+        "NormalAllowance": 414,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "CHE",
+        "CountryCode2": "CH",
+        "Country": "Schweiz",
+        "NormalAllowance": 1332,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "SRB",
+        "CountryCode2": "RS",
+        "Country": "Serbia",
+        "NormalAllowance": 533,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "ESP",
+        "CountryCode2": "ES",
+        "Country": "Spanien",
+        "NormalAllowance": 635,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "SWE",
+        "CountryCode2": "SE",
+        "Country": "Sweden",
+        "NormalAllowance": 0,
+        "HalfDayAllowance": 0,
+        "IsDefault": true,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "USA",
+        "CountryCode2": "US",
+        "Country": "USA",
+        "NormalAllowance": 1049,
+        "HalfDayAllowance": 0,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      },
+      {
+        "CountryCode": "VNM",
+        "CountryCode2": "VN",
+        "Country": "Vietnam",
+        "NormalAllowance": 328,
+        "IsDefault": false,
+        "Disabled": false,
+        "TotalRowCount": 27
+      }
+    ],
+    "success": true
+  }
+}

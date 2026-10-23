@@ -1,0 +1,46 @@
+{
+  "method": "POST",
+  "path": "/cgi/mt.cgi/data/store/ExpensesReact",
+  "query": {},
+  "requestBody": {
+    "attestlevel": 0,
+    "updated": true,
+    "validate": true,
+    "allimages": [
+      {
+        "Base64": "data:image/png;base64,AQID",
+        "added": true,
+        "ImageName": "ImageName 1"
+      }
+    ],
+    "expensetype": 1,
+    "representation": {},
+    "addedimagefiles": [
+      {
+        "Base64": "AQID",
+        "added": true,
+        "ImageName": "ImageName 1"
+      }
+    ],
+    "deletedimagefiles": [],
+    "currencycode": "NOK",
+    "xrate": 1.0394,
+    "userid": "902",
+    "foreignexpenseamt": 43.7,
+    "foreignexpensevat": 0,
+    "loadingimages": false,
+    "notes": "notes 3",
+    "expensetypeid": "900000000000000103",
+    "hasrepresentation": false,
+    "requirenote": false,
+    "novat": false,
+    "projectid": "900000000000000003",
+    "regday": "2026-10-08"
+  },
+  "status": 200,
+  "responseBody": {
+    "success": true,
+    "total": "",
+    "rows": []
+  }
+}

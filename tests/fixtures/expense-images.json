@@ -1,0 +1,24 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/ExpenseImages",
+  "query": {
+    "filter": [
+      [
+        "ExpenseId",
+        "=",
+        "900000000000000160"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "ExpenseImageId": "900000000000000161",
+        "Base64": "data:image/png;base64,AQID"
+      }
+    ],
+    "success": true
+  }
+}

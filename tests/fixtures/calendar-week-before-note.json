@@ -1,0 +1,2724 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/UserCalendar",
+  "query": {
+    "filter": [
+      [
+        "fromDate",
+        "=",
+        "2026-10-01"
+      ],
+      [
+        "toDate",
+        "=",
+        "2026-10-31"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "previousAttestLevel": 2,
+        "user_startdate": "2020-02-20",
+        "user_enddate": null,
+        "attestLevel": 0,
+        "month": 9,
+        "weeks": [
+          {
+            "weeknr": 40,
+            "attestlevel": 1,
+            "days": [
+              {
+                "regday": "2026-09-28",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 28,
+                "month": 8,
+                "attestlevel": 2,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": 2,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-09-28",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000097",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": "usernote 13",
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": 32261,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-09-29",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 29,
+                "month": 8,
+                "attestlevel": 2,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": 2,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-09-29",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000098",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": "usernote 14",
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": 32261,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-09-30",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 30,
+                "month": 8,
+                "attestlevel": 2,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": 2,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-09-30",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000099",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": "usernote 15",
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": 32261,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-01",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 1,
+                "month": 9,
+                "attestlevel": 1,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": 1,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-01",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000100",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-02",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 2,
+                "month": 9,
+                "attestlevel": 1,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": 1,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-02",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000101",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-03",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 0,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 3,
+                "month": 9,
+                "attestlevel": 1,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-04",
+                "regweek": "2026-09-28",
+                "week": 40,
+                "stdtime": 0,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": true,
+                "monthday": 4,
+                "month": 9,
+                "attestlevel": 1,
+                "weeklyattestlevel": 1,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": 1,
+                    "activityname": "activityname 1",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-04",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000004",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000001",
+                    "projectregistrationid": "900000000000000102",
+                    "projtimehh": 4.5,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": null,
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "activityname 1",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "TRAVELTIME1",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 4.5,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "weeknr": 41,
+            "attestlevel": 0,
+            "days": [
+              {
+                "regday": "2026-10-05",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": true,
+                "monthday": 5,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-05",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000150",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-06",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": true,
+                "monthday": 6,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-06",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000151",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-07",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": true,
+                "monthday": 7,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-07",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000152",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-08",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": true,
+                "monthday": 8,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-08",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000153",
+                    "projtimehh": 8,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-09",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": true,
+                "monthday": 9,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "activityname 5",
+                    "requirenote": null,
+                    "userid": "902",
+                    "favoritetype": 1,
+                    "regday": "2026-10-09",
+                    "projectid": "900000000000000019",
+                    "projectname": "projectname 4",
+                    "activity": "900000000000000021",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": null,
+                    "projectregistrationid": "900000000000000154",
+                    "projtimehh": 1,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9020",
+                    "usernote": "userNote 5",
+                    "internalnote": null,
+                    "projplandescription": null,
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": null,
+                    "planningtype": 0,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 2",
+                    "billtime": null
+                  },
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "name 11",
+                    "requirenote": null,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-09",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000064",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000065",
+                    "projectregistrationid": "900000000000000155",
+                    "projtimehh": 5,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": null,
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 11",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  },
+                  {
+                    "absencetype": null,
+                    "attestlevel": null,
+                    "activityname": "activityname 18",
+                    "requirenote": false,
+                    "userid": "902",
+                    "favoritetype": null,
+                    "regday": "2026-10-09",
+                    "projectid": "900000000000000003",
+                    "projectname": "projectname 1",
+                    "activity": "900000000000000062",
+                    "phaseid": "Default",
+                    "phasename": "",
+                    "planningtaskid": "900000000000000063",
+                    "projectregistrationid": "900000000000000156",
+                    "projtimehh": 2,
+                    "projtimemm": null,
+                    "variationid": null,
+                    "billtimehh": null,
+                    "billtimemm": null,
+                    "projectnr": "9006",
+                    "usernote": null,
+                    "internalnote": null,
+                    "projplandescription": "",
+                    "reportnr": null,
+                    "selfinvoicenr": null,
+                    "planningtaskname": "name 12",
+                    "planningtype": 1,
+                    "cancreatedrivelog": true,
+                    "cancreateexpense": true,
+                    "cancreateallowance": true,
+                    "cancreateaddition": true,
+                    "cancreatearticle": true,
+                    "attendencelog": {
+                      "clockstarthh": null,
+                      "clockstartmm": null,
+                      "clockendhh": null,
+                      "clockendmm": null,
+                      "lunchhh": null,
+                      "lunchmm": null,
+                      "attendencelogid": null,
+                      "regday": null,
+                      "userid": null
+                    },
+                    "timedistributiontype": "NORMALTIME",
+                    "ticket": {
+                      "ticketdata": null,
+                      "description": null,
+                      "imageurl": null
+                    },
+                    "customernames": "customernames 1",
+                    "billtime": null
+                  }
+                ],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-10",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": null,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 10,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": 0,
+                  "mm": 0
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": 0,
+                    "mm": 0,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-11",
+                "regweek": "2026-10-05",
+                "week": 41,
+                "stdtime": null,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 11,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "weeknr": 42,
+            "attestlevel": 0,
+            "days": [
+              {
+                "regday": "2026-10-12",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 12,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-13",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 13,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-14",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 14,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-15",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 15,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-16",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 16,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-17",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": null,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 17,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-18",
+                "regweek": "2026-10-12",
+                "week": 42,
+                "stdtime": null,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 18,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "weeknr": 43,
+            "attestlevel": 0,
+            "days": [
+              {
+                "regday": "2026-10-19",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 19,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-20",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 20,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-21",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 21,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-22",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 22,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-23",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 23,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-24",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": null,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 24,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-25",
+                "regweek": "2026-10-19",
+                "week": 43,
+                "stdtime": null,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 25,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "weeknr": 44,
+            "attestlevel": 0,
+            "days": [
+              {
+                "regday": "2026-10-26",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 26,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-27",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 27,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-28",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 28,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-29",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": 8,
+                "holiday": false,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 29,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-30",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": 0,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 30,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-10-31",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": null,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 31,
+                "month": 9,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              },
+              {
+                "regday": "2026-11-01",
+                "regweek": "2026-10-26",
+                "week": 44,
+                "stdtime": null,
+                "holiday": true,
+                "halfday": false,
+                "hasadditionaldata": false,
+                "monthday": 1,
+                "month": 10,
+                "attestlevel": 0,
+                "weeklyattestlevel": 0,
+                "projectregistrations": [],
+                "attendencelog": {
+                  "clockstarthh": null,
+                  "clockstartmm": null,
+                  "clockendhh": null,
+                  "clockendmm": null,
+                  "lunchhh": null,
+                  "lunchmm": null,
+                  "attendencelogid": null,
+                  "regday": null,
+                  "userid": null
+                },
+                "flexdiff": {
+                  "hh": null,
+                  "mm": null
+                },
+                "overtimes": {
+                  "OVERTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1.5
+                  },
+                  "OVERTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 2
+                  },
+                  "OVERTIME3": false,
+                  "OVERTIME4": false,
+                  "PLUSTIME": false
+                },
+                "traveltimes": {
+                  "TRAVELTIME1": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  },
+                  "TRAVELTIME2": {
+                    "hh": null,
+                    "mm": null,
+                    "factor": 1
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "success": true
+  }
+}

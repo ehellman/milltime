@@ -1,0 +1,133 @@
+{
+  "method": "GET",
+  "path": "/cgi/mt.cgi/data/store/Currency",
+  "query": {},
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      {
+        "CurrencyCode": "AUD",
+        "Currency": "Currency 1",
+        "XRate": 6.9528,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "CAD",
+        "Currency": "Currency 2",
+        "XRate": 7.0357,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "CHF",
+        "Currency": "Currency 3",
+        "XRate": 11.9551,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "CNY",
+        "Currency": "Currency 4",
+        "XRate": 1.2947,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "DKK",
+        "Currency": "Currency 5",
+        "XRate": 1.5158,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "EUR",
+        "Currency": "Currency 6",
+        "XRate": 11.331,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "GBP",
+        "Currency": "Currency 7",
+        "XRate": 13.2584,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "HKD",
+        "Currency": "Currency 8",
+        "XRate": 1.0789,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "HRK",
+        "Currency": "Currency 9",
+        "XRate": 1.5451,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "INR",
+        "Currency": "Currency 10",
+        "XRate": 0.114657,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "ISK",
+        "Currency": "Currency 11",
+        "XRate": 0.0827,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "LKR",
+        "Currency": "Currency 12",
+        "XRate": 0.0321,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "NOK",
+        "Currency": "Currency 13",
+        "XRate": 1.0394,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "NZD",
+        "Currency": "Currency 14",
+        "XRate": 5.9906,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "PHP",
+        "Currency": "Currency 15",
+        "XRate": 0.1591,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "PLN",
+        "Currency": "Currency 16",
+        "XRate": 2.2311,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "RON",
+        "Currency": "Currency 17",
+        "XRate": 2.4483,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "RSD",
+        "Currency": "Currency 18",
+        "XRate": 0.1026,
+        "Disabled": true
+      },
+      {
+        "CurrencyCode": "SEK",
+        "XRate": 1,
+        "Base": true,
+        "Disabled": false
+      },
+      {
+        "CurrencyCode": "USD",
+        "Currency": "Currency 19",
+        "XRate": 9.9789,
+        "Disabled": false
+      }
+    ],
+    "success": true,
+    "total": 0
+  }
+}

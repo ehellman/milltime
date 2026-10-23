@@ -1,0 +1,159 @@
+{
+  "method": "POST",
+  "path": "/cgi/mt.cgi/data/store/Allowance",
+  "query": {},
+  "requestBody": {
+    "attestlevel": 0,
+    "updated": true,
+    "validate": true,
+    "totalcompensation": 0,
+    "period": {
+      "_from": "2026-10-18T22:00:00.000Z",
+      "_to": "2026-10-21T22:00:00.000Z"
+    },
+    "allowanceid": "",
+    "purpose": "purpose 3",
+    "projectid": "900000000000000019",
+    "regday": "2026-10-23",
+    "allowancedays": [
+      {
+        "regday": "2026-10-19",
+        "daycountrycode": "-1",
+        "nightcountrycode": "-1",
+        "breakfastpaid": 0,
+        "lunchpaid": 0,
+        "dinnerpaid": 0,
+        "destination": "destination 3",
+        "attestlevel": 0,
+        "night": false,
+        "projectid": "900000000000000019",
+        "deptime": "13.00"
+      },
+      {
+        "regday": "2026-10-20",
+        "daycountrycode": "-1",
+        "nightcountrycode": "",
+        "breakfastpaid": 0,
+        "lunchpaid": 0,
+        "dinnerpaid": 0,
+        "destination": "destination 3",
+        "attestlevel": 0,
+        "night": true,
+        "projectid": "900000000000000019"
+      },
+      {
+        "regday": "2026-10-21",
+        "daycountrycode": "-1",
+        "nightcountrycode": "-1",
+        "breakfastpaid": 1,
+        "lunchpaid": 2,
+        "dinnerpaid": 0,
+        "destination": "destination 3",
+        "attestlevel": 0,
+        "night": false,
+        "projectid": "900000000000000019"
+      },
+      {
+        "regday": "2026-10-22",
+        "daycountrycode": "-1",
+        "nightcountrycode": "-1",
+        "breakfastpaid": 0,
+        "lunchpaid": 0,
+        "dinnerpaid": 0,
+        "destination": "destination 3",
+        "attestlevel": 0,
+        "night": false,
+        "projectid": "900000000000000019",
+        "arrtime": "20.00"
+      }
+    ]
+  },
+  "status": 200,
+  "responseBody": {
+    "rows": [
+      [
+        {
+          "userid": "userid 1",
+          "allowanceid": "900000000000000165",
+          "purpose": "purpose 3",
+          "totalcompensation": 1035,
+          "allowancedays": [
+            {
+              "regday": "2026-10-19",
+              "daycountrycode": "-1",
+              "nightcountrycode": "-1",
+              "destination": "destination 3",
+              "breakfastpaid": 0,
+              "lunchpaid": 0,
+              "dinnerpaid": 0,
+              "arrtime": null,
+              "deptime": 13,
+              "attestlevel": 0,
+              "project": {
+                "projectid": "900000000000000019",
+                "projectname": "projectname 4",
+                "projectnr": "9020",
+                "customername": "customernames 2"
+              }
+            },
+            {
+              "regday": "2026-10-20",
+              "daycountrycode": "-1",
+              "nightcountrycode": "",
+              "destination": "destination 3",
+              "breakfastpaid": 0,
+              "lunchpaid": 0,
+              "dinnerpaid": 0,
+              "arrtime": null,
+              "deptime": null,
+              "attestlevel": 0,
+              "project": {
+                "projectid": "900000000000000019",
+                "projectname": "projectname 4",
+                "projectnr": "9020",
+                "customername": "customernames 2"
+              }
+            },
+            {
+              "regday": "2026-10-21",
+              "daycountrycode": "-1",
+              "nightcountrycode": "-1",
+              "destination": "destination 3",
+              "breakfastpaid": 1,
+              "lunchpaid": 2,
+              "dinnerpaid": 0,
+              "arrtime": null,
+              "deptime": null,
+              "attestlevel": 0,
+              "project": {
+                "projectid": "900000000000000019",
+                "projectname": "projectname 4",
+                "projectnr": "9020",
+                "customername": "customernames 2"
+              }
+            },
+            {
+              "regday": "2026-10-22",
+              "daycountrycode": "-1",
+              "nightcountrycode": "-1",
+              "destination": "destination 3",
+              "breakfastpaid": 0,
+              "lunchpaid": 0,
+              "dinnerpaid": 0,
+              "arrtime": 20,
+              "deptime": null,
+              "attestlevel": 0,
+              "project": {
+                "projectid": "900000000000000019",
+                "projectname": "projectname 4",
+                "projectnr": "9020",
+                "customername": "customernames 2"
+              }
+            }
+          ]
+        }
+      ]
+    ],
+    "success": true
+  }
+}

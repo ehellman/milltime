@@ -1,0 +1,20 @@
+{
+  "method": "DELETE",
+  "path": "/cgi/mt.cgi/data/store/Allowance",
+  "query": {
+    "filter": [
+      [
+        "id",
+        "=",
+        "900000000000000164"
+      ]
+    ]
+  },
+  "requestBody": null,
+  "status": 200,
+  "responseBody": {
+    "success": true,
+    "total": "",
+    "rows": []
+  }
+}
