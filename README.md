@@ -106,7 +106,7 @@ pnpm test:live    # read-only calls against the real instance; needs .env (see .
 MILLTIME_LIVE_WRITES=1 pnpm test:live   # also creates, edits and deletes a time row, an expense and an allowance this week
 ```
 
-Release: `npm version patch && npm publish` (`prepublishOnly` typechecks, tests and builds first), then `git push --follow-tags`.
+Release: `npm version patch` (or `minor`/`major`), then `git push --follow-tags`. Pushing the `v*` tag runs `.github/workflows/release.yml`, which checks the tag matches `package.json`, then typechecks, tests, builds and publishes to npm with provenance.
 
 
 ## License
